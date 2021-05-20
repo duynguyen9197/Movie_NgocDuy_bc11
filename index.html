@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- BS4 -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- GG FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- SLICK -->
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="text-white">
+      <div class="container text-right header_info">
+        <i class="fa fa-phone"></i>
+        <span>123456789 | </span>
+        <i class="fa fa-search"></i>
+      </div>
+      <nav class="container">
+        <!--  BS4 NAVIGATION -->
+        <nav class="navbar header_navi navbar-expand-lg navbar-dark py-0">
+          <a class="navbar-brand" href="#"
+            ><img src="./img/logo.svg" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >HOME <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-4" href="#MON">WHAT ON</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-4" href="#">SHORTCODE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-4" href="#">NEW</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-4" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </nav>
+    </header>
+    <!-- HEADER END -->
+    <!-- CAROUSEL -->
+    <section id="Carousel">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators justify-content-start mb-0">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="./img/hero-1.jpg"
+              alt="First slide"
+            />
+            <div class="carousel-caption text-left d-none d-md-block">
+              <span class="orange">ACTION, ADVENTURE, FANTASY</span>
+              <h1>End of the World: Part II</h1>
+              <p>
+                Claritas est etiam processus dynamicus, qui sequitur mutationem
+                consuetudium lectorum. Mirum est notare quam littera gothica,
+                quam nunc putamu.
+              </p>
+              <div class="PLAY">
+                <span>PG</span>
+                <a href="#" class="btn">
+                  <i class="fa fa-trophy"></i>
+                  <span>PLAY TRAILER</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="./img/hero-2.jpg"
+              alt="Second slide"
+            />
+            <div class="carousel-caption text-left d-none d-md-block">
+              <span>ACTION, ADVENTURE, FANTASY</span>
+              <h1>End of the World: Part II</h1>
+              <p>
+                Claritas est etiam processus dynamicus, qui sequitur mutationem
+                consuetudium lectorum. Mirum est notare quam littera gothica,
+                quam nunc putamu.
+              </p>
+              <div class="PLAY">
+                <span>PG</span>
+                <a href="#" class="btn">
+                  <i class="fa fa-trophy"></i>
+                  <span>PLAY TRAILER</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="./img/hero-3.jpg"
+              alt="Third slide"
+            />
+            <div class="carousel-caption text-left d-none d-md-block">
+              <span>ACTION, ADVENTURE, FANTASY</span>
+              <h1>End of the World: Part II</h1>
+              <p>
+                Claritas est etiam processus dynamicus, qui sequitur mutationem
+                consuetudium lectorum. Mirum est notare quam littera gothica,
+                quam nunc putamu.
+              </p>
+              <div class="PLAY">
+                <span>PG</span>
+                <a href="#" class="btn">
+                  <i class="fa fa-trophy"></i>
+                  <span>PLAY TRAILER</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CAROUSEL END -->
+    <!-- MOVIE -->
+    <section id="Movie">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1>NEW IN</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-3 text-center">
+            <div class="item_img">
+              <img src="./img/movie-1.jpg" alt="" />
+              <div class="item_overlay"></div>
+              <div class="text-dark item_text">
+                <a href=""><i class="fa fa-play"></i></a>
+                <span> Read more</span>
+
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <p>Hush</p>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <div class="col-sm-6 col-md-3 text-center">
+            <div class="item_img">
+              <img src="./img/movie-2.jpg" alt="" />
+              <div class="item_overlay"></div>
+              <div class="text-dark item_text">
+                <a href=""><i class="fa fa-play"></i></a>
+                <span> Read more</span>
+
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <p>Hush</p>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <div class="col-sm-6 col-md-3 text-center">
+            <div class="item_img">
+              <img src="./img/movie-3.jpg" alt="" />
+              <div class="item_overlay"></div>
+              <div class="text-dark item_text">
+                <a href=""><i class="fa fa-play"></i></a>
+                <span> Read more</span>
+
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <p>Hush</p>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <div class="col-sm-6 col-md-3 text-center">
+            <div class="item_img">
+              <img src="./img/movie-4.jpg" alt="" />
+              <div class="item_overlay"></div>
+              <div class="text-dark item_text">
+                <a href=""><i class="fa fa-play"></i></a>
+                <span> Read more</span>
+
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <p>Hush</p>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MOVIE END -->
+    <!-- SHOWTIME -->
+    <section id="Showtime">
+      <div class="container">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              id="MON-tab"
+              data-toggle="tab"
+              href="#MON"
+              role="tab"
+              aria-controls="MON"
+              aria-selected="true"
+              >MON</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="TUE-tab"
+              data-toggle="tab"
+              href="#TUE"
+              role="tab"
+              aria-controls="TUE"
+              aria-selected="false"
+              >TUE</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="SUN-tab"
+              data-toggle="tab"
+              href="#SUN"
+              role="tab"
+              aria-controls="SUN"
+              aria-selected="false"
+              >SUN</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="WED-tab"
+              data-toggle="tab"
+              href="#WED"
+              role="tab"
+              aria-controls="WED"
+              aria-selected="false"
+              >WED</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="THU-tab"
+              data-toggle="tab"
+              href="#THU"
+              role="tab"
+              aria-controls="THU"
+              aria-selected="false"
+              >THU</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="FRI-tab"
+              data-toggle="tab"
+              href="#FRI"
+              role="tab"
+              aria-controls="FRI"
+              aria-selected="false"
+              >FRI</a
+            >
+          </li>
+        </ul>
+
+        <!-- Tab PANE -->
+        <div class="tab-content">
+          <div
+            class="tab-pane active"
+            id="MON"
+            role="tabpanel"
+            aria-labelledby="MON-tab"
+          >
+            <div class="bug">
+              <img src="./img/movie-5.jpg" alt="" />
+              <div class="tab_text d-flex">
+                <h1>DRAMA</h1>
+                <span>Daylight</span>
+                <p>
+                  A chronicle of the childhood, adolescence and burgeoning
+                  adulthood of a young black man growing up in a rough
+                  neighborhood of Miami
+                </p>
+                <a href="">FULL SYNOPSIS</a>
+                <div class="tab_time d-flex">
+                  <i class="fa fa-clock"></i>
+                  <span>VIEWING TIMES</span>
+                  <button class="btn btn-dark">20:00</button>
+                  <button class="btn btn-dark">20:00</button>
+                  <button class="btn btn-dark">20:00</button>
+                  <button class="btn btn-dark">20:00</button>
+                  <p class="">117 MINS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane"
+            id="SUN"
+            role="tabpanel"
+            aria-labelledby="SUN-tab"
+          >
+            <div class="bug">
+              <img src="./img/movie-7.jpg" alt="" />
+              <div class="tab_text d-flex">
+                <h1>DRAMA</h1>
+                <span>Daylight</span>
+                <p>
+                  A chronicle of the childhood, adolescence and burgeoning
+                  adulthood of a young black man growing up in a rough
+                  neighborhood of Miami
+                </p>
+                <a href="">FULL SYNOPSIS</a>
+                <div class="tab_time d-flex">
+                  <i class="fa fa-clock"></i>
+                  <span>VIEWING TIMES</span>
+                  <button class="btn btn-dark">20:00</button>
+                  <button class="btn btn-dark">20:00</button>
+                  <button class="btn btn-dark">20:00</button>
+                  <button class="btn btn-dark">20:00</button>
+                  <p class="">117 MINS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="WED"
+            role="tabpanel"
+            aria-labelledby="WED-tab"
+          >
+            <div class="bug">
+              <img src="./img/movie-8.jpg" alt="" />
+              <div class="tab_text d-flex">
+                <h1>DRAMA</h1>
+                <span>Daylight</span>
+                <p>
+                  A chronicle of the childhood, adolescence and burgeoning
+                  adulthood of a young black man growing up in a rough
+                  neighborhood of Miami
+                </p>
+                <a href="">FULL SYNOPSIS</a>
+                <div class="tab_time d-flex">
+                  <i class="fa fa-clock"></i>
+                  <span>VIEWING TIMES</span>
+                  <button class="btn btn-dark">20:00</button>
+                  <button class="btn btn-dark">20:00</button>
+                  <button class="btn btn-dark">20:00</button>
+                  <button class="btn btn-dark">20:00</button>
+                  <p class="">117 MINS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane"
+            id="FRI"
+            role="tabpanel"
+            aria-labelledby="FRI-tab"
+          >
+            <div class="bug">
+              <img src="./img/movie-9.jpg" alt="" />
+              <div class="tab_text d-flex">
+                <h1>DRAMA</h1>
+                <span>Daylight</span>
+                <p>
+                  A chronicle of the childhood, adolescence and burgeoning
+                  adulthood of a young black man growing up in a rough
+                  neighborhood of Miami
+                </p>
+                <a href="">FULL SYNOPSIS</a>
+                <div class="tab_time d-flex">
+                  <i class="fa fa-clock"></i>
+                  <span>VIEWING TIMES</span>
+                  <button class="btn btn-dark">20:00</button>
+                  <button class="btn btn-dark">20:00</button>
+                  <button class="btn btn-dark">20:00</button>
+                  <button class="btn btn-dark">20:00</button>
+                  <p class="">117 MINS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane"
+            id="TUE"
+            role="tabpanel"
+            aria-labelledby="TUE-tab"
+          >
+            <div class="bug">
+              <img src="./img/movie-6.jpg" alt="" />
+              <div class="tab_text d-flex">
+                <h1>DRAMA</h1>
+                <span>Daylight</span>
+                <p>
+                  A chronicle of the childhood, adolescence and burgeoning
+                  adulthood of a young black man growing up in a rough
+                  neighborhood of Miami
+                </p>
+                <a href="">FULL SYNOPSIS</a>
+                <div class="tab_time d-flex">
+                  <i class="fa fa-clock"></i>
+                  <span>VIEWING TIMES</span>
+                  <button class="btn btn-dark">20:00</button>
+                  <button class="btn btn-dark">20:00</button>
+                  <button class="btn btn-dark">20:00</button>
+                  <button class="btn btn-dark">20:00</button>
+                  <p class="">117 MINS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="bug">
+          <img src="./img/movie-7.jpg" alt="" />
+          <div class="tab_text d-flex">
+            <h1>DRAMA</h1>
+            <span>Daylight</span>
+            <p>
+              A chronicle of the childhood, adolescence and burgeoning adulthood
+              of a young black man growing up in a rough neighborhood of Miami
+            </p>
+            <a href="">FULL SYNOPSIS</a>
+            <div class="tab_time d-flex">
+              <i class="fa fa-clock"></i>
+              <span>VIEWING TIMES</span>
+              <button class="btn btn-dark">20:00</button>
+              <button class="btn btn-dark">20:00</button>
+              <button class="btn btn-dark">20:00</button>
+              <button class="btn btn-dark">20:00</button>
+              <p class="">117 MINS</p>
+            </div>
+          </div>
+        </div>
+        <div class="bug">
+          <img src="./img/movie-8.jpg" alt="" />
+          <div class="tab_text d-flex">
+            <h1>DRAMA</h1>
+            <span>Daylight</span>
+            <p>
+              A chronicle of the childhood, adolescence and burgeoning adulthood
+              of a young black man growing up in a rough neighborhood of Miami
+            </p>
+            <a href="">FULL SYNOPSIS</a>
+            <div class="tab_time d-flex">
+              <i class="fa fa-clock"></i>
+              <span>VIEWING TIMES</span>
+              <button class="btn btn-dark">20:00</button>
+              <button class="btn btn-dark">20:00</button>
+              <button class="btn btn-dark">20:00</button>
+              <button class="btn btn-dark">20:00</button>
+              <p class="">117 MINS</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bug">
+          <img src="./img/movie-9.jpg" alt="" />
+          <div class="tab_text d-flex">
+            <h1>DRAMA</h1>
+            <span>Daylight</span>
+            <p>
+              A chronicle of the childhood, adolescence and burgeoning adulthood
+              of a young black man growing up in a rough neighborhood of Miami
+            </p>
+            <a href="">FULL SYNOPSIS</a>
+            <div class="tab_time d-flex">
+              <i class="fa fa-clock"></i>
+              <span>VIEWING TIMES</span>
+              <button class="btn btn-dark">20:00</button>
+              <button class="btn btn-dark">20:00</button>
+              <button class="btn btn-dark">20:00</button>
+              <button class="btn btn-dark">20:00</button>
+              <p class="">117 MINS</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bug">
+          <img src="./img/movie-6.jpg" alt="" />
+          <div class="tab_text d-flex">
+            <h1>DRAMA</h1>
+            <span>Daylight</span>
+            <p>
+              A chronicle of the childhood, adolescence and burgeoning adulthood
+              of a young black man growing up in a rough neighborhood of Miami
+            </p>
+            <a href="">FULL SYNOPSIS</a>
+            <div class="tab_time d-flex">
+              <i class="fa fa-clock"></i>
+              <span>VIEWING TIMES</span>
+              <button class="btn btn-dark">20:00</button>
+              <button class="btn btn-dark">20:00</button>
+              <button class="btn btn-dark">20:00</button>
+              <button class="btn btn-dark">20:00</button>
+              <p class="">117 MINS</p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <!-- SHOWTIME END -->
+    <!-- COMMING -->
+    <section id="Comming">
+      <div class="comming_bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1>COMMING</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="comming_detail">
+                <span>DRAMA, THRILLER</span>
+                <h1>Deepwater Horizon</h1>
+                <p>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <span><i class="fa fa-calendar"></i>30 September, 2017</span>
+                </p>
+                <p class="text-light">
+                  A dramatization of the April 2010 disaster, when the offshore
+                  drilling rig Deepwater Horizon exploded and created the worst
+                  oil spill in U.S. history.
+                </p>
+                <a href="">MORE INFO</a>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="comming_trailer">
+                <img src="/img/slide-3-video.png" alt="" />
+                <div class="text-dark item_text">
+                  <a href=""><i class="fa fa-play"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="comming_slick">
+        <div class="container">
+          <div class="row">
+            <div class="col-2">
+              <div class="comming_item text-center text-light">
+                <img src="./img/movie-14.jpg" alt="" class="img-fluid" />
+                <p class="pt-2">Lorem ipsum dolor sit .</p>
+                <span class="pb-2">Lorem, ipsum. </span>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="comming_item text-center text-light">
+                <img src="./img/movie-8.jpg" alt="" class="img-fluid" />
+                <p class="pt-2">Lorem ipsum dolor sit .</p>
+                <span class="pb-2">Lorem, ipsum. </span>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="comming_item text-center text-light">
+                <img src="./img/movie-11.jpg" alt="" class="img-fluid" />
+                <p class="pt-2">Lorem ipsum dolor sit .</p>
+                <span class="pb-2">Lorem, ipsum. </span>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="comming_item text-center text-light">
+                <img src="./img/movie-12.jpg" alt="" class="img-fluid" />
+                <p class="pt-2">Lorem ipsum dolor sit .</p>
+                <span class="pb-2">Lorem, ipsum. </span>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="comming_item text-center text-light">
+                <img src="./img/movie-13.jpg" alt="" class="img-fluid" />
+                <p class="pt-2">Lorem ipsum dolor sit .</p>
+                <span class="pb-2">Lorem, ipsum. </span>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="comming_item text-center text-light">
+                <img src="./img/movie-14.jpg" alt="" class="img-fluid" />
+                <p class="pt-2">Lorem ipsum dolor sit .</p>
+                <span class="pb-2">Lorem, ipsum. </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- COMMING END -->
+    <!-- CONTACT -->
+    <section id="Contact">
+      <div class="container text-center p-5">
+        <p class="lead">Need help? Contact our support team on</p>
+        <span class="">0330 123 4567</span>
+      </div>
+    </section>
+    <!-- CONTACT END -->
+    <!-- FOOTER -->
+    <footer class="bg-dark">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-3">
+            <h1 class="orange lead">GET IN TOUCH</h1>
+            <ul>
+              <li><a href=""></a>FAQs</li>
+              <li><a href=""></a>Give us feedback</li>
+              <li><a href=""></a>Contact us</li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <h1 class="orange lead">ABOUT MOVIE STAR</h1>
+            <ul>
+              <li><a href=""></a>ABOUT MOVIE STAR</li>
+              <li><a href=""></a> About us</li>
+              <li><a href=""></a>Find us</li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <h1 class="orange lead">LEGAL STUFF</h1>
+            <ul>
+              <li><a href=""></a>FAQs</li>
+              <li><a href=""></a>Give us feedback</li>
+              <li><a href=""></a>Contact us</li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <h1 class="orange lead">CONNECT WITH US</h1>
+            <ul>
+              <li>
+                <a href=""></a> <i class="fab fa-facebook-f mr-3"></i>Facebook
+              </li>
+              <li><a href=""></a><i class="fab fa-twitter mr-3"></i>Twitter</li>
+              <li>
+                <a href=""></a> <i class="fab fa-google-drive mr-3"></i>Google +
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row copyright py-3">
+          <div class="col">
+            <ul>
+              <li>
+                <span>2017 © Movie Star /</span><a href=""></a> Web design by
+                Klever media
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+    <!-- BS4 SCRipt -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
